@@ -1,0 +1,19 @@
+{
+  "name": "hello-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alexandernikiforov/hello-webpack.git",
+  "author": "Alexander Nikiforov <alexander.nikiforov@gmail.com>",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js --display-error-details"
+  },
+  "dependencies": {
+    "markdown": "^0.5.0"
+  }
+}
