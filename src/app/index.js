@@ -1,4 +1,4 @@
-import markdownPreviewer from './markdownPreviewer';
+import markdownPreviewer from './previewer/markdownPreviewer';
 
 window.onload = function () {
     document.getElementById("editor").addEventListener(
