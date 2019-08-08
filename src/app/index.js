@@ -1,4 +1,6 @@
+import "tachyons"
 import markdownPreviewer from './previewer/markdownPreviewer';
+import './styles.css'
 
 window.onload = function () {
     document.getElementById("editor").addEventListener(
