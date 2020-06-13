@@ -13,5 +13,6 @@ module.exports = Merge(CommonConfig, {
     ],
     optimization: {
         minimize: false
-    }
+    },
+    devtool: "inline-source-map"
 });
